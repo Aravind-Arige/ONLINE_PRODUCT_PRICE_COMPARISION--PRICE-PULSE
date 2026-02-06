@@ -1,0 +1,7 @@
+{
+  "name": "PricePulse AI - Smart Price Comparator",
+  "description": "A world-class product price comparison tool powered by Gemini 3 Flash and Google Search Grounding to find the best deals across major e-commerce platforms.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

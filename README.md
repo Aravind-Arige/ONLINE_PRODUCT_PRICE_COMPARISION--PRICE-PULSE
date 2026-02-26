@@ -63,7 +63,7 @@ npm install
 
 --------------------------------------------------------------------
 
-## ▶ Run the Application
+## ▶ Run the Application in localhost
 
 npm run dev
 

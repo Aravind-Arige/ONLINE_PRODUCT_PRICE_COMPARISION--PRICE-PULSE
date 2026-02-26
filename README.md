@@ -1,17 +1,121 @@
-# ONLINE_PRODUCT_PRICE_COMPARISION--PRICE-PULSE
-<br>
->>PROBLEM STATEMENT:
-Every shopper looks for the best deals & discounts before buying any product. Nowadays before purchasing anything the buyers do some online research of the products on the internet. One of the major factors which lead to purchasing of any product is cost or pricing. The buyers tend to compare prices before purchasing any product. But since it is very difficult to visit each & every website for price comparison, there needs to be a solution to automate this process.
+# 🛒 PRICE-PULSE — Online Product Price Comparison Tool
 
-<br>
-->>The Price comparison website project proposed here gathers information on product prices from various websites & presents it to the users. The users can then choose to buy from the best options available. Even Ecommerce traders can use this price comparison website to study their competitors and form new strategies accordingly to attract new customers & stay ahead of their competitors. 
-<br>
->>SOLUTION OFFERED:
-->The proposed solution is the development of an automated Price Comparison Website that 
-acts as a centralized platform for collecting, analyzing, and displaying product prices from 
-multiple e-commerce websites. This system eliminates the need for users to manually visit 
-different online shopping platforms to compare prices, discounts, and offers. By automating 
-the price comparison process, the solution significantly reduces time, effort, and complexity 
-involved in making informed purchasing decisions. 
+🔎 Price-Pulse is an online product price comparison web application that helps users search for a product and instantly view prices from multiple e-commerce websites — making it easier to find the best deals without visiting each site manually.
 
+--------------------------------------------------------------------
 
+## 🚀 Features
+
+✔ Search for products across multiple platforms  
+✔ View price comparisons in a structured format  
+✔ Fast and intuitive UI built with React + TypeScript + Vite  
+✔ Modular service layer for API/web scraping integration  
+
+--------------------------------------------------------------------
+
+## 🧠 Problem Statement
+
+Online shoppers often need to compare prices across different websites before making a purchase.  
+Manually checking each website is time-consuming.  
+
+Price-Pulse automates this process by collecting pricing data from multiple sources and presenting them in one place for easy comparison.
+
+--------------------------------------------------------------------
+
+## 📦 Tech Stack
+
+- React
+- TypeScript
+- Vite
+- API / Service Modules
+- Node.js
+
+--------------------------------------------------------------------
+
+## 📁 Project Structure
+
+/
+├── components/        # UI components  
+├── services/          # API / data fetching logic  
+├── public/            # Static assets  
+├── src/  
+│   ├── App.tsx        # Main application  
+│   ├── main.tsx       # Entry point  
+├── .env.txt           # Environment variable template  
+├── vite.config.ts     # Vite configuration  
+└── README.md  
+
+--------------------------------------------------------------------
+
+## 🔧 Getting Started
+
+### 1️⃣ Clone the Repository
+
+git clone https://github.com/Vinaynag16/ONLINE_PRODUCT_PRICE_COMPARISION--PRICE-PULSE.git
+
+### 2️⃣ Navigate into the Project
+
+cd ONLINE_PRODUCT_PRICE_COMPARISION--PRICE-PULSE
+
+### 3️⃣ Install Dependencies
+
+npm install
+
+--------------------------------------------------------------------
+
+## ▶ Run the Application
+
+npm run dev
+
+The application will start on:
+http://localhost:5173
+
+--------------------------------------------------------------------
+
+## 📌 Environment Variables
+
+Create a .env file in the root directory based on .env.txt
+
+Example:
+
+VITE_API_URL=https://your-api-url.com
+
+--------------------------------------------------------------------
+
+## 📋 Usage
+
+1. Enter the product name in the search bar  
+2. Click on Search  
+3. Compare prices from different platforms  
+4. Choose the best deal  
+
+--------------------------------------------------------------------
+
+## 📈 Future Improvements
+
+- Add real-time API integrations (Amazon, Flipkart, etc.)
+- Add price history tracking
+- Add user authentication
+- Add price alert notifications
+- Improve UI/UX design
+
+--------------------------------------------------------------------
+
+## 🤝 Contributing
+
+1. Fork the repository  
+2. Create a new branch (git checkout -b feature-name)  
+3. Commit changes  
+4. Push to your fork  
+5. Create a Pull Request  
+
+--------------------------------------------------------------------
+
+## 📄 License
+
+This project is open-source and free to use.
+
+--------------------------------------------------------------------
+
+💡 Built to simplify smart shopping.
+Happy Coding 🚀
